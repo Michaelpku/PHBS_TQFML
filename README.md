@@ -34,5 +34,5 @@
   3. a
 - 
 ## Result and Conclusion
-- After getting the overall classification effect, the main algorithm logistic regression with L2 regularization will be used in this project.
+- Af, the main algorithm logistic regression with L2 regularization will be used in this project.
 -This final model will be used to predict the probability of surviving at least one year for HCC patients.
