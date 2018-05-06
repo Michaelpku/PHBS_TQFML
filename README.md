@@ -2,10 +2,10 @@
   Team Member: Yang Hui (1701213132)
 
   Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
-## Motivation: 
-- The main goal of this project is to predict the probability of surviving at least one year for HCC patients.
+## Motivation and Goal: 
+- The main goal of this project is to predict the probability of breast cancer recurrence.
 
-- It is a real clinical data of 165 patients diagnosed with HCC collected at a University Hospital in Portugal.
+- It.
 ## Dataset description
 
 - This data set includes 201 instances of one class and 85 instances of another class. 
