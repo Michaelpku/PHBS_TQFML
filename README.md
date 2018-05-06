@@ -4,8 +4,9 @@
   Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
 ## Motivation and Goal: 
 - The main goal of this project is to predict the probability of breast cancer recurrence.
+- Breast Cancer is one of the most common malignant tumors in women.  It mortality rate ranks first in all women's malignant tumors.
+- Since the target dataset is a restricted dataset, there is few machine learning research about it on UCI and Kaggle.
 
-- Breast Cancer is one of the most common malignant tumors in women. It mortality rate ranks first in all women's malignant tumors.
 ## Dataset description
 
 - This data set includes 201 instances of one class and 85 instances of another class. 
