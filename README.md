@@ -12,6 +12,7 @@
 
 - This data set includes 201 instances of one class and 85 instances of another class. 
 - The instances are described by 9 attributes, some of which are linear and some are nominal. 
+- Eight missing values in Node-caps attribute and one missing value in Breast-quadr attribute.
 - Attribute Information:
   1. Class: no-recurrence-events, recurrence-events 
   2. Age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. 
@@ -23,8 +24,6 @@
   8. Breast: left, right. 
   9. Breast-quadr: left-up, left-low, right-up,	right-low, central. 
   10. Irradiat:	yes, no.
-- Eight missing values in Node-caps attribute and one missing value in Breast-quadr attribute.
-
 
 ## Methodology
 - Import data and check
