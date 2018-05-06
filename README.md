@@ -1,4 +1,5 @@
 
+
 # Probability of breast cancer recurrence
   Team Member: Yang Hui (1701213132)
 
@@ -29,9 +30,11 @@
 - Import data and check
 - Drop observations containing missing values
 - Preprocess:
-  1. Encode catagories
-  2. Split data into training set and test set
-  3. a
+  1. Drop samples
+  2. Encode catagories
+  3. Recheck dataset
+  4. Split the dataset
+- Logistic Regression
 - 
 ## Result and Conclusion
 - Af, the main algorithm logistic regression with L2 regularization will be used in this project.
