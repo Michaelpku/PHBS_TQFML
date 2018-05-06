@@ -1,4 +1,4 @@
-# Recurrence probability of breast cancer
+:# Recurrence probability of breast cancer
 Team Member: Yang Hui (1701213132)
 
 Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
@@ -25,10 +25,13 @@ Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/
 
 
 ## Methodology
-- Preprocess
+- Import data and check
+- Drop samples containing missing value
+- Preprocess:
   1.Encode catagories
   2.Split data into training set and test set
   3.
+- 
 ## Result and Conclusion
 - After getting the overall classification effect, the main algorithm logistic regression with L2 regularization will be used in this project.
 -This final model will be used to predict the probability of surviving at least one year for HCC patients.
