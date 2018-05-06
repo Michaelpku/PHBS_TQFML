@@ -26,7 +26,7 @@ Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/
 
 ## Methodology
 - Import data and check
-- Drop samples containing missing value
+- Drop observations containing missing values
 - Preprocess:
   1. Encode catagories
   2. Split data into training set and test set
