@@ -5,7 +5,7 @@
 ## Motivation and Goal: 
 - The main goal of this project is to predict the probability of breast cancer recurrence.
 
-- It.
+- Breast Cancer is one of the most common malignant tumors in women. It mortality rate ranks first in all women's malignant tumors.
 ## Dataset description
 
 - This data set includes 201 instances of one class and 85 instances of another class. 
