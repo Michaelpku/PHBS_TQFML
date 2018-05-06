@@ -28,9 +28,9 @@ Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/
 - Import data and check
 - Drop samples containing missing value
 - Preprocess:
-  1.Encode catagories
-  2.Split data into training set and test set
-  3.
+  1. Encode catagories
+  2. Split data into training set and test set
+  3. a
 - 
 ## Result and Conclusion
 - After getting the overall classification effect, the main algorithm logistic regression with L2 regularization will be used in this project.
