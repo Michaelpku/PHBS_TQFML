@@ -1,7 +1,7 @@
-:# Recurrence probability of breast cancer
-Team Member: Yang Hui (1701213132)
+# Recurrence probability of breast cancer
+  Team Member: Yang Hui (1701213132)
 
-Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
+  Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
 ## Motivation: 
 - The main goal of this project is to predict the probability of surviving at least one year for HCC patients.
 
