@@ -5,10 +5,7 @@ Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/
 ## Motivation: 
 - The main goal of this project is to predict the probability of surviving at least one year for HCC patients.
 
-
 - It is a real clinical data of 165 patients diagnosed with HCC collected at a University Hospital in Portugal.
-This dataset contais several demographic, risk factors, laboratory and overall survival features of 165 real patients diagnosed with HCC.
-There are 23 quantitative variables, and 26 qualitative variables in these features.
 ## Dataset description
 
 - This data set includes 201 instances of one class and 85 instances of another class. 
@@ -28,8 +25,10 @@ There are 23 quantitative variables, and 26 qualitative variables in these featu
 
 
 ## Methodology
-- Several algorithms will be used to fit and test these models to check whether it needs further feature reduction and extraction or not.
-
+- Preprocess
+  1.Encode catagories
+  2.Split data into training set and test set
+  3.
 ## Result and Conclusion
 - After getting the overall classification effect, the main algorithm logistic regression with L2 regularization will be used in this project.
 -This final model will be used to predict the probability of surviving at least one year for HCC patients.
