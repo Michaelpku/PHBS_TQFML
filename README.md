@@ -26,7 +26,7 @@
   7. Deg-malig(degree of malignant): 1, 2, 3. 
   8. Breast: left, right. 
   9. Breast-quadr(breast quadrant): left-up, left-low, right-up,	right-low, central. 
-  10. Irradiat(radiotherapy):	yes, no.
+  10. Irradiat (radiotherapy):	yes, no.
 
 ## Methodology
 - The main algorithm used in this project is logistic regression with L2 regularization(parameter c=0.1).
