@@ -16,14 +16,14 @@
 - Attribute Information:
   1. Class: no-recurrence-events, recurrence-events 
   2. Age: 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99. 
-  3. Menopause: lt40, ge40, premeno. 
+  3. Menopause: lt40(before 40), ge40(After 40), premeno(not yet). 
   4. Tumor-size: 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59. 
-  5. Inv-nodes: 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39. 
+  5. Inv-nodes(the number of nodes invaded): 0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39. 
   6. Node-caps: yes, no. 
-  7. Deg-malig: 1, 2, 3. 
+  7. Deg-malig(degree of malignant): 1, 2, 3. 
   8. Breast: left, right. 
-  9. Breast-quadr: left-up, left-low, right-up,	right-low, central. 
-  10. Irradiat:	yes, no.
+  9. Breast-quadr(breast quadrant): left-up, left-low, right-up,	right-low, central. 
+  10. Irradiat(radiotherapy):	yes, no.
 
 ## Methodology
 - The main algorithm used in this project is logistic regression with L2 regularization(parameter c=0.1).
