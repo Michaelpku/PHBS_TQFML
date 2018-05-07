@@ -1,5 +1,4 @@
 
-
 # Probability of breast cancer recurrence
   Team Member: Yang Hui (1701213132)
 
@@ -28,14 +27,16 @@
 
 ## Methodology
 - Import data and check
-- Drop observations containing missing values
 - Preprocess:
   1. Drop samples
   2. Encode catagories
   3. Recheck dataset
   4. Split the dataset
-- Logistic Regression
-- 
+- Logistic Regression and Metrics
+- Assessing Feature Importance
+- Tuning Hyperparameter with validation curves
+- Check the result with other algorithms
+
 ## Result and Conclusion
-- Af, the main algorithm logistic regression with L2 regularization will be used in this project.
+- the main algorithm logistic regression with L2 regularization will be used in this project.
 -This final model will be used to predict the probability of surviving at least one year for HCC patients.
