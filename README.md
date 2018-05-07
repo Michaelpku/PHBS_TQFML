@@ -1,10 +1,10 @@
  
-# Probability of breast cancer recurrence
+# Predict the breast cancer recurrence
   Team Member: Yang Hui (1701213132)
 
   Dataset Source: Breast Cancer Data Set from UCI, https://archive.ics.uci.edu/ml/datasets/Breast+Cancer
 ## Motivation and Goal: 
-- The main goal of this project is to predict the probability of breast cancer recurrence.
+- The main goal of this project is to find a model to predict the breast cancer recurrence.
 - Breast Cancer is one of the most common malignant tumors in women.  It mortality rate ranks first in all women's malignant tumors.
 - Since the target dataset is a restricted dataset, there is few machine learning research about it on UCI and Kaggle.
 
