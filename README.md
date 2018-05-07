@@ -1,5 +1,6 @@
 
 
+
 # Predict the breast cancer recurrence
   Team Member: Yang Hui (1701213132)
 
@@ -43,7 +44,9 @@
 - At first, both the training and test accuracies are not so high, 0.762 and 0.786.  In addition, The ROC AUC score is at the similar level, 0.741. 
 - Considering the small sample size, K-fold cross-validation is used to check the generalization performance of the model.  As anticipated, the accuracy score is quite volatile, varying from 0.55 to 0.9. The average accuracy score is 0.736. 
 - Confusion matrix is also used to examine the predictive power of the model.  The result is quite disappointing.  16 observations were predicted to be negative, while they were positive.
-![Confusion matrix](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/1.png)
+![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/1.png)
 - Tumor_size, Deg_malig, Age, Inv-nodes and Breast are proved to the top five important features or risk factors in Random Forest. Sequential Backward Selection shows similar outcome. The most significant five features are Tumor_size, Deg_malig, Age, Inv_nodes and Node_caps.  Only one feature,Node_caps, differs from the former top five.
+![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/2.png)
 - Validation curve is used to see how the training and test accuracy change with hyperparameter C.  Unfortunately, little variance is found on the curve.  The default hyperparameter C=0.1 seems to be better than other alternatives.  Therefore, there is no need to tune the hyperparameter.
+![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/4.png)
 - Other algorithms, like Perceptron, SVM, Decision Tree, KNN and Random Forest, are also used to compare with the logistic regression, but none of them showed significant advantage over loggistic regression. Support Vector Machines(rbf) and Perceptron generated highest training accuracy(0.984) and test accuracy(0.798), respectively.  
