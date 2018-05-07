@@ -47,7 +47,7 @@
 - Confusion matrix is also used to examine the predictive power of the model.  The result is quite disappointing.  16 observations were predicted to be negative, while they were positive.
 ![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/1.png)
 - Tumor_size, Deg_malig, Age, Inv-nodes and Breast are proved to the top five important features or risk factors in Random Forest. Sequential Backward Selection shows similar outcome. The most significant five features are Tumor_size, Deg_malig, Age, Inv_nodes and Node_caps.  Only one feature,Node_caps, differs from the former top five.
-![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/2.png)
+![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/2.png) ![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/3.png)
 - Validation curve is used to see how the training and test accuracy change with hyperparameter C.  Unfortunately, little variance is found on the curve.  The default hyperparameter C=0.1 seems to be better than other alternatives.  Therefore, there is no need to tune the hyperparameter.
 ![](https://github.com/Michaelpku/PHBS_TQFML/raw/master/Project/Picture/4.png)
 - Other algorithms, like Perceptron, SVM, Decision Tree, KNN and Random Forest, are also used to compare with the logistic regression, but none of them showed significant advantage over loggistic regression. Support Vector Machines(rbf) and Perceptron generated highest training accuracy(0.984) and test accuracy(0.798), respectively.  
