@@ -39,5 +39,8 @@
 - Check the result with other algorithms
 
 ## Result and Conclusion
-- 
--
+- At first, both the training and test accuracies are not so high, 0.762 and 0.786.  In addition, The ROC AUC score is at the similar level, 0.741. 
+- Considering the small sample size, K-fold cross-validation is used to check the generalization performance of the model.  As anticipated, the accuracy score is quite volatile, varying from 0.55 to 0.9. The average accuracy score is 0.736. 
+- Confusion matrix is also used to examine the predictive power of the model.  The result is quite disappointing.  16 observations were predicted to be negative, while they were positive.
+- Tumor_size, Deg_malig, Age, Inv-nodes and Breast are proved to the top five important features or risk factors in Random Forest. Sequential Backward Selection shows similar outcome. The most significant five features are Tumor_size, Deg_malig, Age, Inv_nodes and Node_caps.  Only one feature,Node_caps, differs from the former top five.
+- Validation curve is used to see how the training and test accuracy 
