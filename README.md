@@ -1,5 +1,4 @@
- 
-# Predict the breast cancer recurrence
+ # Predict the breast cancer recurrence
   Team Member: Yang Hui (1701213132)
 
   Dataset Source: Breast Cancer Data Set from [UCI](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
