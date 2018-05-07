@@ -4,7 +4,7 @@
 
   Dataset Source: Breast Cancer Data Set from [UCI](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer)
   
-  [The main ipybn file](https://github.com/Michaelpku/PHBS_TQFML/blob/master/Project/breast-cancer.ipynb)
+  [The Main ipybn File](https://github.com/Michaelpku/PHBS_TQFML/blob/master/Project/breast-cancer.ipynb)
 ## Motivation and Goal: 
 - The main goal of this project is to find a model to predict the breast cancer recurrence.
 - Breast Cancer is one of the most common malignant tumors in women.  It mortality rate ranks first in all women's malignant tumors.
