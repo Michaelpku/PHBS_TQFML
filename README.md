@@ -26,6 +26,7 @@
   10. Irradiat:	yes, no.
 
 ## Methodology
+- The main algorithm used in this project is logistic regression with L2 regularization(parameter c=0.1).
 - Import data and check
 - Preprocess:
   1. Drop samples
@@ -38,5 +39,5 @@
 - Check the result with other algorithms
 
 ## Result and Conclusion
-- the main algorithm logistic regression with L2 regularization will be used in this project.
--This final model will be used to predict the probability of surviving at least one year for HCC patients.
+- 
+-
